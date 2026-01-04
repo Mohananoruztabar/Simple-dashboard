@@ -20,7 +20,7 @@ type PaginateProps = {
 
 function Paginate({ pageCount, handlePageClick }: PaginateProps) {
 
-   const onPageChange = (event: { selected: number }) => {
+  const onPageChange = (event: { selected: number }) => {
     const newPage = event.selected + 1
     handlePageClick(newPage)
   }
