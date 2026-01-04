@@ -1,0 +1,14 @@
+.dashbordWrapper{}
+.dashbordWrapper table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.dashbordWrapper table tbody tr{
+    border: 1px solid black;
+    text-align: center;
+}
+.dashbordWrapper table tbody tr td ,
+.dashbordWrapper table thead tr th{
+    border: 1px solid black;
+    padding: 15px;
+}
