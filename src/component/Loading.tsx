@@ -4,7 +4,7 @@ import styled from "../component/component.module.css"
 function Loading() {
   return (
     <div>
-        <span className={styled.loader}></span>
+      <span className={styled.loader}></span>
     </div>
   )
 }
