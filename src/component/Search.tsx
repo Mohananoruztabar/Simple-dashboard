@@ -5,6 +5,7 @@ import { useState , useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 
 const SearchIcon = IoSearch as React.ComponentType<{ size?: number }>;
+
 type SearchProps = {
   search: string
   onSearch: (value: string) => void
